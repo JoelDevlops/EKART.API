@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EKART.API", "Application\EKART.API\EKART.API.csproj", "{0551C159-3251-4A85-BB77-052560A4A8F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EKART.USER.CORE", "Core\EKART.USER.CORE\EKART.USER.CORE.csproj", "{3BE1420A-F630-47C7-89F5-6DD637656130}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EKART.API.DATA", "Infrastructure\EKART.API.DATA\EKART.API.DATA.csproj", "{9D344DC4-07DB-4940-84C6-B47184D747E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{AD71093C-61B0-4561-B716-C5BDF2821B31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A259EBB8-6454-4CCE-AF5E-64A6243002EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E659A8AC-6A37-4573-9CBF-06F30D1FE751}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "EKART.API.DB", "Infrastructure\EKART.API.DB\EKART.API.DB.sqlproj", "{EE75FEE4-0050-46C9-9398-BF84C75B1B2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0551C159-3251-4A85-BB77-052560A4A8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0551C159-3251-4A85-BB77-052560A4A8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0551C159-3251-4A85-BB77-052560A4A8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0551C159-3251-4A85-BB77-052560A4A8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE1420A-F630-47C7-89F5-6DD637656130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE1420A-F630-47C7-89F5-6DD637656130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE1420A-F630-47C7-89F5-6DD637656130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE1420A-F630-47C7-89F5-6DD637656130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D344DC4-07DB-4940-84C6-B47184D747E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D344DC4-07DB-4940-84C6-B47184D747E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D344DC4-07DB-4940-84C6-B47184D747E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D344DC4-07DB-4940-84C6-B47184D747E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE75FEE4-0050-46C9-9398-BF84C75B1B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE75FEE4-0050-46C9-9398-BF84C75B1B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE75FEE4-0050-46C9-9398-BF84C75B1B2A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EE75FEE4-0050-46C9-9398-BF84C75B1B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE75FEE4-0050-46C9-9398-BF84C75B1B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE75FEE4-0050-46C9-9398-BF84C75B1B2A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0551C159-3251-4A85-BB77-052560A4A8F4} = {AD71093C-61B0-4561-B716-C5BDF2821B31}
+		{3BE1420A-F630-47C7-89F5-6DD637656130} = {A259EBB8-6454-4CCE-AF5E-64A6243002EF}
+		{9D344DC4-07DB-4940-84C6-B47184D747E6} = {E659A8AC-6A37-4573-9CBF-06F30D1FE751}
+		{EE75FEE4-0050-46C9-9398-BF84C75B1B2A} = {E659A8AC-6A37-4573-9CBF-06F30D1FE751}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CD086C0-E0C7-4C59-A333-F83740A242EA}
+	EndGlobalSection
+EndGlobal
