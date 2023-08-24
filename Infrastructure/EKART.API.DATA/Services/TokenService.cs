@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace EKART.API.SERVICES.Services
 {
-    public class TokenServicecs : ITokenGenerator
+    public class TokenService : ITokenGenerator
     {
         private IConfiguration configuration;
-        public TokenServicecs(IConfiguration configuration) 
+        public TokenService(IConfiguration configuration) 
         {
         this.configuration = configuration;
         }

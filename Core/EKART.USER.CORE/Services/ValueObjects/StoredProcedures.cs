@@ -13,5 +13,9 @@ namespace EKART.USER.CORE.Services.ValueObjects
         {
             public const string AuthorizeWithRoles = "usp_Ekart_Authorize_User";
         }
+        public struct Categories
+        {
+            public const string GetAllCategory = "usp_Ekart_Get_Product_Category";
+        }
     }
 }

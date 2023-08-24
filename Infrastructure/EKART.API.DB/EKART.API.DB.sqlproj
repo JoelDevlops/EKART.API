@@ -56,13 +56,29 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
-    <Folder Include="StoredProcedures" />
+    <Folder Include="dbo\" />
+    <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="EkartUserDetail.sql" />
-    <Build Include="EkartLoopUpRoles.sql" />
-    <Build Include="EkartUserInRoles.sql" />
-    <Build Include="EkartTokenDetails.sql" />
-    <Build Include="StoredProcedures\usp_Ekart_Authorize_User.sql" />
+    <Build Include="dbo\Tables\EkartCartItem.sql" />
+    <Build Include="dbo\Tables\EkartLoopUpRoles.sql" />
+    <Build Include="dbo\Tables\EkartOrderDetails.sql" />
+    <Build Include="dbo\Tables\EkartOrderItem.sql" />
+    <Build Include="dbo\Tables\EkartPaymentDetails.sql" />
+    <Build Include="dbo\Tables\EkartProductCategory.sql" />
+    <Build Include="dbo\Tables\EkartProductDiscount.sql" />
+    <Build Include="dbo\Tables\EkartProductInventory.sql" />
+    <Build Include="dbo\Tables\EkartProducts.sql" />
+    <Build Include="dbo\Tables\EkartShoppingSession.sql" />
+    <Build Include="dbo\Tables\EkartTokenDetails.sql" />
+    <Build Include="dbo\Tables\EkartUserAddress.sql" />
+    <Build Include="dbo\Tables\EkartUserDetail.sql" />
+    <Build Include="dbo\Tables\EkartUserInRoles.sql" />
+    <Build Include="dbo\Tables\EkartUserPayment.sql" />
+    <Build Include="dbo\Stored Procedures\usp_Ekart_Authorize_User.sql" />
+    <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
+    <Build Include="dbo\Stored Procedures\usp_Ekart_Get_Product_Category.sql" />
   </ItemGroup>
 </Project>

@@ -19,7 +19,7 @@ namespace EKART.API.Handlers.UserDetail
     public class GetAllUserDetailHandler : IRequestHandler<GetAllUserDetailQuery, IEnumerable<UserDetailListItem>>
     {
         private readonly IMapper _mapper;
-        private IUserDetailsRepository _userDetailsRepository;
+        private readonly IUserDetailsRepository _userDetailsRepository;
         public GetAllUserDetailHandler(IMapper mapper,IUserDetailsRepository userDetailsRepository)
         {
             _mapper = mapper;

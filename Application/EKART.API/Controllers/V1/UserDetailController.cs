@@ -15,7 +15,7 @@ namespace EKART.API.Controllers.V1
 
     public class UserDetailController : ControllerBase
     {
-        private IMediator mediator;
+        private readonly IMediator mediator;
 
         public UserDetailController(IMediator mediator) => this.mediator = mediator;
 

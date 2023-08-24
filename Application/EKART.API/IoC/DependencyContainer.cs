@@ -12,6 +12,7 @@ namespace EKART.API.IoC
             services.AddMediatR(context => context.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             services.AddAutoMapper(typeof(DependencyContainer));
             services.ConfigureRepositories(configuration);
+            services.AddHttpContextAccessor();
         }
     }
 }

@@ -15,11 +15,12 @@ namespace EKART.API.DATA.Context
         public virtual DbSet  <EkartLoopUpRole> EkartLoopUpRole { get; set; }
         public virtual DbSet<EkartUserDetail> EkartUserDetail { get; set; }
         public virtual DbSet<EkartUserInRole> EkartUserInRole { get; set; }
-
         public virtual DbSet<EkartTokenDetails> EkartTokenDetails { get; set; }
+        public virtual DbSet<EkartProductCategory> EkartProductCategory { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<EkartLoopUpRole>().ToTable("EkartLoopUpRole");
+            modelBuilder.Entity<EkartProductCategory>().ToTable("EkartProductCategory");
             modelBuilder.Entity<EkartUserDetail>().ToTable("EkartUserDetail");
             modelBuilder.Entity<EkartUserInRole>().ToTable("EkartUserInRole");
             modelBuilder.Entity<EkartTokenDetails>().ToTable("EkartTokenDetails");

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace EKART.USER.CORE.Entities;
 
-public partial class EkartUserDetail
+public  class EkartUserDetail
 {
     public int Id { get; set; }
 
